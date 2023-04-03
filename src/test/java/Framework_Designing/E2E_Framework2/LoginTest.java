@@ -30,6 +30,7 @@ public class LoginTest extends Base {
 	lp.pswd().sendKeys(pswd);
 	lp.submit().click();
 	log.info("loginTest done");
+	System.out.println("i clone this project");
 	
 	}
 

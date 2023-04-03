@@ -23,7 +23,8 @@ public class NavigationBarTest extends Base {
 	public void initialize() throws IOException {
 		driver = initialaizeBrowser();
 		driver.get(prop.getProperty("url"));
-	log.info("browser initialized and url lauched");}
+	log.info("browser initialized and url lauched");
+	System.out.println("made some changes");}
 
 	@Test
 	public void menuTest() {
